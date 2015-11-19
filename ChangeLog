@@ -1,0 +1,24 @@
+2012-01-27 Web Essentials for Pixelant  <ext-pxa_newstofb@web-essentials.asia>
+	* Change version to 1.0.0
+  * Rename "tx_pxanewstofb_publish" to "tx_pxanewstofb_published" 
+  * Rename "tx_pxanewstofb_ignor_publish" to "tx_pxanewstofb_dont_publish"
+  * Properly use comment and format in the code
+  * Add news category to the extension configuration (if set, only these categories will be published. separated by ','). 
+  * Add manage_pages scope to Facebook application in order to post as page administrator right, thanks to Alexey Gafiulov
+  * Update functionality to use more group pages and fan pages (separated by ',')
+  * Show description text in post by using subheader of news (or bodytext if subheader not exists), thanks to Alexey Gafiulov
+  * Change URL order in code when getting access token.
+  * Upgrade facebook library
+  * Fixed host name and image path when running via CLI
+  * Remove deprecated functions and it may not compatible with TYPO3 v4.3 and lower
+  * Update documentation
+
+2011-01-14 Web Essentials for Pixelant  <ext-pxa_newstofb@web-essentials.asia>
+	* Change version to 0.1.0 and state to stable
+	* Fixed bug when there are more than one image in tt_news, thank to Raimund.
+	* Update manual.
+	* Add a new checkbox to manage the news not to be published to Facebook.
+	* Add a functionality to check and allow user to publish news only on fan page or group page.
+
+2010-10-25 Web Essentials for Pixelant  <ext-pxa_newstofb@web-essentials.asia>
+	* initial release of version 0.0.1

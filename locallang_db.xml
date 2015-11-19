@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'pxa_newstofb'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_pxanewstofb_dont_publish">Do not publish to Facebook</label>
+			<label index="tx_pxanewstofb_published">Has been published to Facebook (set automatically by extension, untick to re-publish)</label>
+			<label index="scheduler.tx_pxanewstofb_title">Publish tt_news/tx_news to Facebook</label>
+			<label index="scheduler.tx_pxanewstofb_description">Publish new tt_news/tx_news items to Facebook</label>
+			<label index="scheduler.tx_pxanewstofb_configuration">Configuration</label>
+			
+			<label index="fields_changed">In tt_news table fields changed!</label>
+			<label index="data_transfered">The old field data was already transfered to new field.</label>
+			<label index="instruction">If you've just updated the extension, please click the "Update" button after having clicked "Make updates" to update data to new fields.</label>
+
+			<label index="tx_pxanewstofb_config_app">Facebook App config</label>
+			<label index="tx_pxanewstofb_config">PXA tt_news to Facebook configuration</label>
+			<label index="tx_pxanewstofb_config.title">Title</label>
+			<label index="tx_pxanewstofb_config.description">Description</label>
+			<label index="tx_pxanewstofb_config.appid">Facebook Application ID</label>
+			<label index="tx_pxanewstofb_config.secret">Facebook secret</label>
+			<label index="tx_pxanewstofb_config.pageid">Fan page ID</label>
+			<label index="tx_pxanewstofb_config.groupid">Group page ID</label>
+			<label index="tx_pxanewstofb_config.authcode">Facebook authorize code...........</label>
+			<label index="tx_pxanewstofb_config.weburl">The website url</label>
+			<label index="tx_pxanewstofb_config.type">News type</label>
+			<label index="tx_pxanewstofb_config.detailnewspid">News single view PID</label>
+			<label index="tx_pxanewstofb_config.storagepid">News Storage PID</label>
+			<label index="tx_pxanewstofb_config.categoryid">The UID of tt_news categories</label>
+			<label index="tx_pxanewstofb_config.desclength">Lenght of description</label>
+			<label index="tx_pxanewstofb_config.logfilepath">Log file path</label>
+			<label index="tx_pxanewstofb_config.defaultimagepath">Path to default image</label>
+			<label index="tx_pxanewstofb_config.oauth">Authenticate with Facebook to allow your Facebook application to post to your Pages</label>
+
+			<label index="tx_pxanewstofb_config_app">Facebook App config</label>
+			<label index="tx_pxanewstofb_config_social_publishing">Publisher to FB config</label>
+			<label index="tx_pxanewstofb_config_social_publishing.title">Title</label>
+			<label index="tx_pxanewstofb_config_social_publishing.description">Description</label>
+			<label index="tx_pxanewstofb_config_social_publishing.appid">Facebook Application ID</label>
+			<label index="tx_pxanewstofb_config_social_publishing.pageid">Publish to Facebook page</label>
+			
+      <label index="tx_pxanewstofb_app_token">Publisher to FB tocken (autocreated)</label>
+			<label index="tx_pxanewstofb_app_token.title">Facebook page</label>
+			<label index="tx_pxanewstofb_app_token.category">Category</label>
+			<label index="tx_pxanewstofb_app_token.access_token">Access token</label>
+			<label index="tx_pxanewstofb_app_token.appid">Facebook Application ID</label>
+		</languageKey>
+	</data>
+</T3locallang>

@@ -16,7 +16,7 @@ $EM_CONF[$_EXTKEY] = array(
     'category' => 'be',
     'shy' => 0,
     'version' => '2.0.0',
-    'dependencies' => 'tt_news, tx_news_domain_model_news',
+    'dependencies' => 'news',
     'conflicts' => '',
     'priority' => '',
     'loadOrder' => '',
@@ -35,8 +35,7 @@ $EM_CONF[$_EXTKEY] = array(
     'constraints' => array(
         'depends' => array(
             'typo3' => '4.4.0-6.2.99',
-            'tt_news' => '',
-            'tx_news_domain_model_news' => '',
+            'news' => '',
         ),
         'conflicts' => array(
         ),

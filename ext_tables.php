@@ -20,11 +20,7 @@ $tempColumns = array (
 	),
 );
 
-t3lib_div::loadTCA('tt_news');
-t3lib_extMgm::addTCAcolumns('tt_news', $tempColumns,1);
-t3lib_extMgm::addToAllTCAtypes('tt_news', '--div--;Pxa News to Facebook,tx_pxanewstofb_dont_publish,tx_pxanewstofb_published;;;;1-1-1');
-
-t3lib_div::loadTCA('tx_news_domain_model_news');
+t3lib_div::loadTCA('news');
 t3lib_extMgm::addTCAcolumns('tx_news_domain_model_news', $tempColumns,1);
 t3lib_extMgm::addToAllTCAtypes('tx_news_domain_model_news', '--div--;Pxa News to Facebook,tx_pxanewstofb_dont_publish,tx_pxanewstofb_published;;;;1-1-1');
 

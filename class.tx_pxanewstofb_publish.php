@@ -156,7 +156,7 @@ return poublishing record
       	$cObj = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('tslib_cObj');
         foreach ($newsSrc as $index => $news) {
           $article = array(
-				    'link' => $cObj->typoLink_URL(array('parameter' => $fbconfig['detailnewspid'],'additionalParams' => "&tx_news[tx_news_domain_model_news]=" . $news->getUid(), 'forceAbsoluteUrl' => 1)),
+				    'link' => $cObj->typoLink_URL(array('parameter' => $fbconfig['detailnewspid'],'additionalParams' => "&tx_news_pi1[news]=" . $news->getUid(), 'forceAbsoluteUrl' => 1)),
 				    'name' => $news->getTitle(),
 				    'uid' => $news->getUid(),
 			     );
